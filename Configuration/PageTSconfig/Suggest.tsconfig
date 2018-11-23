@@ -1,0 +1,7 @@
+# ***************************************************************************************
+# Translate currency labels in suggestions
+# ***************************************************************************************
+[language = *pt_br*]
+    TCEFORM.sys_language.static_lang_isocode.suggest.default.additionalSearchFields = lg_name_pt_br
+    TCEFORM.sys_language.static_lang_isocode.suggest.default.orderBy = lg_name_pt_br
+[global]

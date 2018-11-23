@@ -1,2 +1,1 @@
-
-## this will trigger static_info_tables to reimport the static data from this extension
+Domain/Model/Country
