@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Bitmotion\StaticInfoTablesPtBr\Provider;
 
-use Mselbach\StaticInfoTablesUa\Extension;
+use Bitmotion\StaticInfoTablesPtBr\Extension;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 class TcaProvider
