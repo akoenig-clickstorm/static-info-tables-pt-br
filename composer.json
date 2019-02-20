@@ -12,8 +12,7 @@
     }
   ],
   "replace": {
-    "static_info_tables_pt_br": "self.version",
-    "bitmotion/static_info_tables_pt_br": "self.version",
+    "bitmotion/static-info-tables-pt-br": "self.version",
     "typo3-ter/static-info-tables-pt-br": "self.version"
   },
   "require": {
