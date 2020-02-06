@@ -3,26 +3,36 @@
   "description": "Brazilian portuguese (pt_BR) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
   "type": "typo3-cms-extension",
   "license": "GPL-2.0-or-later",
+  "homepage": "https://www.bitmotion.de",
   "authors": [
     {
       "name": "Florian Wessels",
       "role": "Developer",
-      "email": "typo3-ext@bitmotion.de",
+      "email": "f.wessels@bitmotion.de",
       "homepage": "https://www.bitmotion.de"
     }
   ],
+  "support": {
+    "issues": "https://github.com/bitmotion/static-info-tables-pt-br/issues",
+    "source": "https://github.com/bitmotion/static-info-tables-pt-br",
+    "email": "typo3-ext@bitmotion.de"
+  },
   "replace": {
-    "bitmotion/static-info-tables-pt-br": "self.version",
     "typo3-ter/static-info-tables-pt-br": "self.version"
   },
   "require": {
-    "php": ">=7.0",
-    "typo3/cms-core": "^8.7 || ^9.5",
+    "typo3/cms-core": "^8.7 || ^9.5  || ^10.2",
+    "typo3/cms-extbase": "^8.7 || ^9.5  || ^10.2",
     "sjbr/static-info-tables": "^6.7"
   },
   "autoload": {
     "psr-4": {
       "Bitmotion\\StaticInfoTablesPtBr\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "static_info_tables_pt_br"
     }
   }
 }
