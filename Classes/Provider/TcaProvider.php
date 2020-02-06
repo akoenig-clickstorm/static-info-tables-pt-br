@@ -1,6 +1,5 @@
 <?php
-declare(strict_types=1);
-
+declare(strict_types = 1);
 namespace Bitmotion\StaticInfoTablesPtBr\Provider;
 
 use Bitmotion\StaticInfoTablesPtBr\Extension;
