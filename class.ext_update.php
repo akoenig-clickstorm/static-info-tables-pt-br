@@ -30,9 +30,8 @@ class ext_update
         $objectManager->get(DatabaseUpdateUtility::class)->doUpdate(Extension::EXTENSION_KEY);
 
         return sprintf(
-            '<p>%s %s</p>',
-            LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables'),
-            Extension::EXTENSION_KEY
+            '<div class="callout callout-info"><div class="media"><div class="media-left"><span class="fa-stack fa-lg callout-icon"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-info fa-stack-1x"></i></span></div><div class="media-body"><div class="callout-body"><p>%s</p></div></div></div></div>',
+            LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables', [Extension::EXTENSION_KEY])
         );
     }
 
