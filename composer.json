@@ -1,5 +1,5 @@
 {
-  "name": "bitmotion/static-info-tables-pt-br",
+  "name": "leuchtfeuer/static-info-tables-pt-br",
   "description": "Brazilian portuguese (pt_BR) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
   "type": "typo3-cms-extension",
   "license": "GPL-2.0-or-later",
@@ -15,14 +15,15 @@
   "support": {
     "issues": "https://github.com/Leuchtfeuer/static-info-tables-pt-br/issues",
     "source": "https://github.com/Leuchtfeuer/static-info-tables-pt-br",
-    "email": "typo3-ext@bitmotion.de"
+    "email": "dev@Leuchtfeuer.com"
   },
   "replace": {
+    "bitmotion/static-info-tables-pt-br": "self.version",
     "typo3-ter/static-info-tables-pt-br": "self.version"
   },
   "require": {
-    "typo3/cms-core": "^9.5  || ^10.4",
-    "typo3/cms-extbase": "^9.5  || ^10.4",
+    "typo3/cms-core": "^9.5 || ^10.4",
+    "typo3/cms-extbase": "^9.5 || ^10.4",
     "sjbr/static-info-tables": "^6.9"
   },
   "autoload": {
