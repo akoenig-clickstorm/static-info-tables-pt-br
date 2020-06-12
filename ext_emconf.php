@@ -14,9 +14,9 @@ $EM_CONF['static_info_tables_pt_br'] = [
     'author_company' => 'Bitmotion GmbH',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-10.2.99',
-            'php' => '7.0.0-7.4.99',
-            'static_info_tables' => '6.7.0-6.7.99',
+            'typo3' => '9.5.0-10.4.99',
+            'php' => '7.2.0-7.4.99',
+            'static_info_tables' => '6.9.0-6.99.99',
         ],
         'conflicts' => [],
         'suggests' => [],
