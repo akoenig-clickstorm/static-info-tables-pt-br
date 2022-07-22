@@ -1,45 +1,44 @@
 {
-  "name": "leuchtfeuer/static-info-tables-pt-br",
-  "description": "Brazilian portuguese (pt_BR) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
-  "type": "typo3-cms-extension",
-  "license": "GPL-2.0-or-later",
-  "homepage": "https://www.Leuchtfeuer.com",
-  "authors": [
-    {
-      "name": "Florian Wessels",
-      "role": "Developer",
-      "email": "f.wessels@Leuchtfeuer.com",
-      "homepage": "https://www.Leuchtfeuer.com"
+    "name": "leuchtfeuer/static-info-tables-pt-br",
+    "description": "Brazilian portuguese (pt_BR) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.Leuchtfeuer.com",
+    "authors": [
+        {
+            "name": "Florian Wessels",
+            "role": "Developer",
+            "email": "flo.wessels@gmail.com"
+        },
+        {
+            "name": "Max Rösch",
+            "role": "Developer",
+            "email": "typo3@elbebass.com",
+            "homepage": "https://www.Leuchtfeuer.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Leuchtfeuer/static-info-tables-pt-br/issues",
+        "source": "https://github.com/Leuchtfeuer/static-info-tables-pt-br",
+        "email": "dev@Leuchtfeuer.com"
     },
-    {
-      "name": "Max Rösch",
-      "role": "Developer",
-      "email": "m.roesch@Leuchtfeuer.com",
-      "homepage": "https://www.Leuchtfeuer.com"
+    "replace": {
+        "bitmotion/static-info-tables-pt-br": "self.version",
+        "typo3-ter/static-info-tables-pt-br": "self.version"
+    },
+    "require": {
+        "typo3/cms-core": "^10.4 || ^11.5",
+        "typo3/cms-extbase": "^10.4 || ^11.5",
+        "sjbr/static-info-tables": "^6.7 || ^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitmotion\\StaticInfoTablesPtBr\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "static_info_tables_pt_br"
+        }
     }
-  ],
-  "support": {
-    "issues": "https://github.com/Leuchtfeuer/static-info-tables-pt-br/issues",
-    "source": "https://github.com/Leuchtfeuer/static-info-tables-pt-br",
-    "email": "dev@Leuchtfeuer.com"
-  },
-  "replace": {
-    "bitmotion/static-info-tables-pt-br": "self.version",
-    "typo3-ter/static-info-tables-pt-br": "self.version"
-  },
-  "require": {
-    "typo3/cms-core": "^9.5.17 || ^10.4.2",
-    "typo3/cms-extbase": "^9.5.17 || ^10.4.2",
-    "sjbr/static-info-tables": "^6.9"
-  },
-  "autoload": {
-    "psr-4": {
-      "Bitmotion\\StaticInfoTablesPtBr\\": "Classes/"
-    }
-  },
-  "extra": {
-    "typo3/cms": {
-      "extension-key": "static_info_tables_pt_br"
-    }
-  }
 }
