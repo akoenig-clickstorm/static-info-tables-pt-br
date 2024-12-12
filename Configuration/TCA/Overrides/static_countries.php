@@ -9,7 +9,7 @@
  * Max Rösch <m.roesch@Leuchtfeuer.com>, Leuchtfeuer Digital Marketing
  */
 
-defined('TYPO3_MODE') || die;
+defined('TYPO3') || die;
 
 call_user_func(
     function ($additionalFields, $dataSetName) {
