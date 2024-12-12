@@ -15,8 +15,8 @@ return [
     \SJBR\StaticInfoTables\Domain\Model\Country::class => [
         'tableName' => 'static_countries',
         'properties' => [
-            'shortNamePtBr' => [
-                'fieldName' => 'cn_short_pt_br',
+            'shortNamePtbr' => [
+                'fieldName' => 'cn_short_ptbr',
             ],
         ],
     ],
